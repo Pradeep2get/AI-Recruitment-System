@@ -7,11 +7,16 @@ def main():
   st.title("AI Recruitment System")
   # Sidebar content
   with st.sidebar:
+    st.title("Credential Settings")
     email = st.text_input("Enter the Email", "")
     password = st.text_input("Enter the password", "",type = 'password')
     gmeet_link = st.text_input("Enter Google meet link", "")
+    
+    st.title('Personal Information')
     hr_name = st.text_input("Enter your Name", "")
     company_name = st.text_input("  Company name", "")
+    
+    st.title('Candidate Information')
     c_mail = st.text_input("Enter candidate's Email","")
     
     
